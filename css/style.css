@@ -272,10 +272,15 @@ section.about .content .left button {
     color: var(--info);
     padding: 4px 8px;
     font-size: 12px;
-    border: none;
+    border: 1px solid var(--mild);
+    border-radius: 3px;
     line-height: 24px;
     outline: none;
     cursor: pointer;
+}
+
+section.about .content .left button a{
+    color: var(--ternary);
 }
 
 section.about .content .right p {
