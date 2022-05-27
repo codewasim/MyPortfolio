@@ -356,12 +356,13 @@ section.skills .content .left .item {
 
 section.skills .content .left .timeline__wrapper {
     border-left: 2px dotted var(--dark-blue);
+    margin-left: 10px;
 }
 
 section.skills .content .left .item:after {
     content: '';
     position: absolute;
-    left: 0;
+    left: 0px;
     top: 5px;
     width: 10px;
     height: 10px;
@@ -381,6 +382,8 @@ section.skills .skills__wrapper .skill-box h4 {
 section.skills .skills__wrapper .skill-box {
     margin-bottom: 4rem;
 }
+
+
 
 section.skills .skills__wrapper .skill-box .progress__wrap {
     background: #20294a;
