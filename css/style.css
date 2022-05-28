@@ -413,6 +413,10 @@ section.skills .skills__wrapper .skill-box .progress__wrap .progress__bar .toolt
     text-transform: uppercase;
 }
 
+/* section.project_section {
+    margin-right: 50%;
+} */
+
 section.project_section h4 {
     color: var(--mild);
     font-size: 16px;
@@ -420,13 +424,18 @@ section.project_section h4 {
     margin: 1rem 1rem;
 }
 
-section.project_section p {
+section.project_section li{
     color: var(--ternary);
     font-size: 14px;
     line-height: 1.6;
     letter-spacing: 0.1px;
     padding-left: 2rem;
     margin: 1rem 1rem;
+    margin-left: 4rem;
+}
+section.project_section p{
+    font-size: 16px;
+    margin-left: 2rem;
 }
 
 section.counter__section {
