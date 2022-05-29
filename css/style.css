@@ -510,6 +510,7 @@ section.certificate .slider__wrapper .slide p{
 }
 section.certificate .slider__wrapper .slide img{
     width: auto;
+    max-width: 300px;
     height: auto;
     max-height: 500px;
     object-fit: cover;
