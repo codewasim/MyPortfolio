@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     $('#profile__ripple').ripples({
         resolution: 512,
-        dropRadius: 10
+        dropRadius: 5
     });
 
     const bars = document.querySelectorAll('.progress__bar');
