@@ -478,11 +478,13 @@ section.counter__section>div h5 {
     color: var(--fade);
 }
 
+section.certificate .wrapper{
+    overflow: hidden;
+}
 section.certificate .slider__wrapper{
     display: flex;
     align-items: center;
     flex-direction: column;
-    overflow: hidden;
 }
 
 section.certificate .slider__wrapper .icon__wrap{
@@ -508,9 +510,8 @@ section.certificate .slider__wrapper .slide p{
 }
 section.certificate .slider__wrapper .slide img{
     width: auto;
-    max-width: 500px;
     height: auto;
-    max-height: max-content;
+    max-height: 500px;
     object-fit: cover;
 }
 section.certificate .slider__wrapper .slide h2{

@@ -71,9 +71,4 @@ $(document).ready(function() {
         arrows: false,
         autoplay: true
     });
-    
-    $('.cfslider').slick({
-        arrows: false,
-        autoplay: true
-    });
 });
