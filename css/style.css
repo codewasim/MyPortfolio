@@ -482,7 +482,7 @@ section.certificate .slider__wrapper{
     display: flex;
     align-items: center;
     flex-direction: column;
-    align-items: center;
+    overflow: hidden;
 }
 
 section.certificate .slider__wrapper .icon__wrap{
@@ -492,7 +492,7 @@ section.certificate .slider__wrapper .icon__wrap{
 }
 
 section.certificate .slider__wrapper .slide{
-    display: flex;
+    display:flex;
     flex-direction: column;
     align-items: center;
 
@@ -509,7 +509,8 @@ section.certificate .slider__wrapper .slide p{
 section.certificate .slider__wrapper .slide img{
     width: auto;
     max-width: 500px;
-    height: 300px;
+    height: auto;
+    max-height: max-content;
     object-fit: cover;
 }
 section.certificate .slider__wrapper .slide h2{
@@ -555,8 +556,6 @@ section.work .wrapper .portfolio .tabs ul li a.active {
 
 section.work .wrapper .portfolio .portfolio__wrapper {
     margin-top: 4rem;
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr); */
     display: flex;
 }
 
