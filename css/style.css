@@ -509,10 +509,9 @@ section.certificate .slider__wrapper .slide p{
     
 }
 section.certificate .slider__wrapper .slide img{
+    overflow: hidden;
     width: auto;
-    max-width: 300px;
-    height: auto;
-    object-fit: cover;
+    max-width: 720px;
 }
 section.certificate .slider__wrapper .slide h2{
     font-size: 16px;
@@ -744,8 +743,17 @@ footer {
     section.work .wrapper {
         display: block;
     }
+    section.certificate .wrapper{
+        display: block;
+    }
     section.work .wrapper .slider__wrapper {
         margin-bottom: 8rem;
+    }
+    section.certificate .wrapper .slider__wrapper {
+        margin-bottom: 8rem;
+    }
+    section.certificate .slider__wrapper .slide img{
+        width: 720px;
     }
     section.partners {
         margin-top: 4rem;
@@ -764,6 +772,9 @@ footer {
     }
     section.partners .brands__wrapper img {
         margin-bottom: 2rem;
+    }
+    section.certificate .slider__wrapper .slide img{
+        width: 680px;
     }
 }
 
@@ -791,6 +802,9 @@ footer {
     section.counter__section>div {
         margin-bottom: 2rem;
     }
+    section.certificate .slider__wrapper .slide img{
+        width: 537px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -814,5 +828,8 @@ footer {
     }
     section.contact .wrapper .right .form__group {
         grid-template-columns: 1fr;
+    }
+    section.certificate .slider__wrapper .slide img{
+        width: 405px;
     }
 }
