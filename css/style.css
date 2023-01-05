@@ -64,9 +64,11 @@ nav .inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 nav .inner .logo {
+    display: flex;
     text-transform: uppercase;
     color: var(--pure);
     font-size: 18px;
