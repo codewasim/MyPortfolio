@@ -425,19 +425,21 @@ section.project_section h4 {
     font-weight: 600;
     margin: 1rem 1rem;
 }
+section.project_section h2 {
+    color: var(--mild);
+    font-size: 14px;
+    font-weight: 500;
+    margin: 1rem 1rem;
+}
 
-section.project_section li{
+section.project_section p{
     color: var(--ternary);
     font-size: 14px;
     line-height: 1.6;
     letter-spacing: 0.1px;
     padding-left: 2rem;
     margin: 1rem 1rem;
-    margin-left: 4rem;
-}
-section.project_section p{
-    font-size: 16px;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 section.counter__section {
@@ -489,11 +491,18 @@ section.certificate .slider__wrapper{
     flex-direction: column;
 }
 
-section.certificate .slider__wrapper .icon__wrap{
+section.certificate .icon__wrap{
     font-size: 50px;
     color: var(--info);
     text-align: center;
 }
+
+.slick-slide embed {
+    width: 100%;
+    overflow: visible;
+    height: 100vh;
+ }
+  
 
 section.certificate .slider__wrapper .slide{
     display:flex;

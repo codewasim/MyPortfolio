@@ -15,7 +15,7 @@ document.getElementById('user_name').innerHTML = 'Wasim Ansari';
 // 2. User Role 1
 document.getElementById('user_role_1').innerHTML = 'Salesforce Administrator';
 // 3. User Role 2
-document.getElementById('user_role_2').innerHTML = 'Salesforce Platform App Builder';
+document.getElementById('user_role_2').innerHTML = 'Salesforce Developer';
 // 3. User Role 3
 document.getElementById('user_role_3').innerHTML = 'JavaScript Developer';
 // 4. User Phone Number
@@ -26,4 +26,4 @@ document.getElementById('user_email').innerHTML = '&nbsp imailwsm@gmail.com';
 
 
 // about me
-document.getElementById('about_me').innerHTML = 'An enthusiastic programmer, who loves developing Android Application, Websites, Web Applications and coding. Interested in Artificial Intellegence and Machine learning with a positive gesture towards Application Development.';
+document.getElementById('about_me').innerHTML = 'Salesforce Developer with two years of IT experience and four certifications, including Salesforce Certified Administrator, Platform App Builder, and JavaScript Developer I. Specialized in Lightning Web Components (LWC), collaborated on healthcare projects for European clients. Proven ability to deliver tailored solutions, enhance user experience, and contribute to dynamic client-side scripting.';

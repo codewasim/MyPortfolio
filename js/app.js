@@ -71,4 +71,24 @@ $(document).ready(function() {
         arrows: false,
         autoplay: true
     });
+
+
+    $('.certification-slider').slick({
+        autoplay: true,
+        autoplaySpeed: 5000, // Set the interval in milliseconds (5 seconds in this example)
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+
+        arrows: false,
+        dots: false,
+     });
+
+     // Add your PDF slides dynamically
+     var certifications = ['JS.pdf', 'Admin.pdf', 'App Builder.pdf', 'Associate.pdf'];
+
+     certifications.forEach(function(certification){
+        var filePath = '/MyPortfolio/files/' + certification;
+        $('.certification-slider').slick('slickAdd', '<div><embed src="' + filePath + '#page=1" type="application/pdf" ></div>');
+     });
 });
