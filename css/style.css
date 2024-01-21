@@ -219,6 +219,10 @@ section.profile .right ul.socials li:nth-child(5) a {
     background: #cd486b;
     border: 1px solid white;
 }
+section.profile .right ul.socials li:nth-child(6) a {
+    background: #00ff62;
+    border: 1px solid white;
+}
 
 .section__heading {
     font-size: 16px;
@@ -737,6 +741,10 @@ footer {
     .container {
         max-width: 90%;
     }
+    .badge {
+        height: 100px;
+        width: 100px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -744,6 +752,10 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         clip-path: none;
+    }
+    .badge {
+        height: 90px;
+        width: 90px;
     }
     section.profile .left {
         margin-bottom: 2rem;
@@ -786,6 +798,10 @@ footer {
     }
     section.certificate .slider__wrapper .slide img{
         width: 680px;
+    }
+    .badge {
+        height: 75px;
+        width: 75px;
     }
 }
 
