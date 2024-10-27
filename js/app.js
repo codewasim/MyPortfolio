@@ -85,7 +85,7 @@ $(document).ready(function() {
      });
 
      // Add your PDF slides dynamically
-     var certifications = ['Admin.jpg', 'AppBuilder.jpg', 'Associate.jpg','JS.jpg'];
+     var certifications = ['Admin.jpg', 'AppBuilder.jpg', 'Associate.jpg','JS.jpg','Omni.jpg','PD1.jpg'];
 
         certifications.forEach(function(certification) {
             var filePath = '/MyPortfolio/files/' + certification; // Adjust the path to your images folder
