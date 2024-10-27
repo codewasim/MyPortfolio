@@ -52,7 +52,7 @@ $(document).ready(function() {
         });
     })
 
-
+//wasim
     // Magnify pop up 
     console.log($('.magnify').magnificPopup)
     $('.magnify').magnificPopup({
@@ -85,10 +85,10 @@ $(document).ready(function() {
      });
 
      // Add your PDF slides dynamically
-     var certifications = ['JS.pdf', 'Admin.pdf', 'App Builder.pdf', 'Associate.pdf'];
+     var certifications = ['Admin.jpg', 'AppBuilder.jpg', 'Associate.jpg'];
 
-     certifications.forEach(function(certification){
-        var filePath = '/MyPortfolio/files/' + certification;
-        $('.certification-slider').slick('slickAdd', '<div><embed src="' + filePath + '#page=1" type="application/pdf" ></div>');
-     });
+        certifications.forEach(function(certification) {
+            var filePath = '/MyPortfolio/files/' + certification; // Adjust the path to your images folder
+            $('.certification-slider').slick('slickAdd', '<div><img src="' + filePath + '" alt="Certification" style="width:100%;"></div>');
+        });
 });
