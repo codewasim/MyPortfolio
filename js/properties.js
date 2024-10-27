@@ -14,7 +14,7 @@ document.getElementById('button_title').innerHTML = 'Print';
 document.getElementById('user_name').innerHTML = 'Wasim Ansari';
 // 2. User Role 1
 document.getElementById('user_role_1').innerHTML = 'Salesforce Administrator';
-// 3. User Role 2
+// 3. User Role 2 
 document.getElementById('user_role_2').innerHTML = 'Salesforce Developer';
 // 3. User Role 3
 document.getElementById('user_role_3').innerHTML = 'JavaScript Developer';
