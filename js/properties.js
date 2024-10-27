@@ -26,4 +26,4 @@ document.getElementById('user_email').innerHTML = '&nbsp imailwsm@gmail.com';
 
 
 // about me
-document.getElementById('about_me').innerHTML = 'Salesforce Developer with two years of IT experience and four certifications, including Salesforce Certified Administrator, Platform App Builder, and JavaScript Developer I. Specialized in Lightning Web Components (LWC), collaborated on healthcare projects for European clients. Proven ability to deliver tailored solutions, enhance user experience, and contribute to dynamic client-side scripting.';
+document.getElementById('about_me').innerHTML = 'Experienced Salesforce Developer with 3 years in the field and a strong portfolio of six certifications, including Administrator, Platform Developer I, JavaScript Developer I, Platform App Builder, and Associate. Specialized in building scalable and efficient applications using Lightning Web Components (LWCs), along with a solid command of Apex Programming and Asynchronous Apex. Skilled in REST and SOAP APIs, with a proven track record of implementing integrations that streamline workflows and meet diverse business needs.';
