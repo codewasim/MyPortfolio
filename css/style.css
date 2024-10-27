@@ -419,10 +419,32 @@ section.skills .skills__wrapper .skill-box .progress__wrap .progress__bar .toolt
     text-transform: uppercase;
 }
 
-/* section.project_section {
-    margin-right: 50%;
-} */
+section.project_section .project {
+    position: relative;
+    border-left: 2px dotted var(--dark-blue);
+    margin-left: 10px;
+}
+section.project_section .project .client {
+    position: relative; /* Make .client relative to position :after element correctly */
+    padding-bottom: 2rem;
+  }
 
+section.project_section .project .client:after{
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 3px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--info);
+    border-radius: 50%;
+    margin-left: -21px;
+}
+section.project_section .project .client h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 section.project_section h4 {
     color: var(--mild);
     font-size: 16px;
@@ -445,6 +467,26 @@ section.project_section p{
     margin: 1rem 1rem;
     margin-left: 1rem;
 }
+/*  */
+
+section.project_section li{
+    color: var(--ternary);
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0.1px;
+    padding-left: 3rem;
+    margin: 1rem 1rem;
+    margin-left: 1rem;
+    
+}
+.project-responsibilities {
+    padding-left: 5rem; /* Adjust this value to move bullets to the right */
+  }
+  
+  .project-responsibilities li {
+    margin-left: 20px; /* Adds additional space if needed */
+  }
+
 
 section.counter__section {
     display: grid;
